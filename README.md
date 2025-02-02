@@ -1,6 +1,6 @@
 # Welcome to My Portfolio! 🌟
 
-Hello there! 👋 I'm [TKaizen], a passionate developer with a deep interest in [Your Specialization, e.g., Web Development, Data Science, etc.]. On this portfolio, you'll find a collection of projects I've worked on, skills I've developed, and the creative process that drives my work.
+Hello there! 👋 I'm TKaizen, a passionate developer with a deep interest in [Your Specialization, e.g., Web Development, Data Science, etc.]. On this portfolio, you'll find a collection of projects I've worked on, skills I've developed, and the creative process that drives my work.
 
 ## What I Do:
 - 💻 **Web Development**: Building responsive and dynamic websites.
