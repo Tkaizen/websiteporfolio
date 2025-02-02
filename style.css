@@ -1,0 +1,239 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+#navbar__logo {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    transition: color 0.3s ease;
+}
+
+.navbar__links:hover {
+    color: #f77062;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/heropage2.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero__btn {
+    background: #f77062;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.hero__btn:hover {
+    background: #4837ff;
+}
+
+/* Projects Section */
+.projects {
+    background: #0f0f0f;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.projects__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.project__card {
+    background: #1c1c1c;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.project__card h3 {
+    margin-bottom: 10px;
+}
+
+.project__card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f77062;
+    text-decoration: none;
+}
+
+/* Contact Section */
+.contact {
+    background: #131313;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.contact__btn {
+    background: #f77062;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.contact__btn:hover {
+    background: #4837ff;
+}
+
+/* Footer */
+.footer {
+    background: #141414;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social__icons {
+    margin-top: 10px;
+}
+
+.social__icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .navbar__container {
+        padding: 0 20px;
+    }
+
+    .navbar__menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+
+    .navbar__menu.active {
+        background: #131313;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .navbar__item {
+        height: 60px;
+        width: 100%;
+    }
+
+    .navbar__links {
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        display: table;
+    }
+
+    .navbar__toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar__toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: #fff;
+        display: block;
+    }
+
+    .navbar__toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navbar__toggle.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .navbar__toggle.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .projects__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project__card {
+        width: 90%;
+    }
+}
