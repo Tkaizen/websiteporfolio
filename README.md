@@ -9,12 +9,15 @@ Hello there! 👋 I'm [TKaizen], a passionate developer with a deep interest in 
 
 Feel free to explore my repositories, check out my projects, and contact me if you’d like to collaborate! 😊
 
-## Get in Touch
-- 📧 Email:
-- 🌐 Website: 
-- 📍 Location: [Cagayan De Oro City, Philippines]
+
 
 Thanks for visiting! 🚀
 ![Screenshot 2025-02-02 140407](https://github.com/user-attachments/assets/556815a1-dbde-4773-a4a3-a8268bcfb623)
 ## Mobile Reponsiveness
 ![Screenshot 2025-02-02 140420](https://github.com/user-attachments/assets/33fd041e-6f21-49d1-bae6-0fb35def3693)
+
+
+## Get in Touch
+- 📧 Email:
+- 🌐 Website: 
+- 📍 Location: [Cagayan De Oro City, Philippines]
